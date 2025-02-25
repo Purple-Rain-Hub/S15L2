@@ -5,7 +5,7 @@ SELECT * FROM Products;
 SELECT * FROM Products WHERE (UnitsInStock >= 40);
 
 --3)
-SELECT * FROM Employees WHERE (City = 'London');
+SELECT * FROM Employees WHERE City = 'London';
 
 --4)
 SELECT * FROM Orders ORDER BY Freight DESC;
